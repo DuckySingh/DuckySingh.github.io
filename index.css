@@ -5,9 +5,7 @@
     margin: auto;
 }
 
-section {
-    background-color: #F0F0F0;
-}
+body {}
 
 .bg-dark {
     background-color: #F20D46 !important;
@@ -22,4 +20,19 @@ section {
     --bs-navbar-brand-hover-color: #fff;
     --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
     font-size: 1.2em;
+}
+
+.text-left {
+    text-align: justify;
+}
+
+.banner {
+    margin: 1em auto;
+    padding: 1.5em;
+    background-color: rgba(13, 242, 185, .8);
+}
+
+.banner-img {
+    width: 300px;
+    margin: 1em auto;
 }
