@@ -28,8 +28,11 @@ body {}
 
 .banner {
     margin: 1em auto;
-    padding: 1.5em;
+    padding: 2.5em;
+    height: 400px;
     background-color: rgba(13, 242, 185, .8);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 .banner-img {
