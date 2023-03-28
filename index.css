@@ -1,11 +1,14 @@
 .profile-image {
-    width: 95%;
-    border-radius: 2em;
+    border-radius: .2em;
     box-shadow: 2px 5px gray;
-    margin: auto;
+    margin: 1em auto;
+    height: 300px;
+    max-width: 95%;
 }
 
-body {}
+.box {
+    margin: 1em 1em 1em 1em;
+}
 
 .bg-dark {
     background-color: #F20D46 !important;
@@ -28,14 +31,15 @@ body {}
 
 .banner {
     margin: 1em auto;
-    padding: 2.5em;
-    height: 400px;
+    padding: 1.5em;
+    height: 450px;
     background-color: rgba(13, 242, 185, .8);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 .banner-img {
-    width: fit-content;
+    width: 300px;
+    max-width: 80%;
     margin: 1em auto;
 }
