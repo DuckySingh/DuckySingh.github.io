@@ -8,3 +8,18 @@
 section {
     background-color: #F0F0F0;
 }
+
+.bg-dark {
+    background-color: #F20D46 !important;
+}
+
+.navbar-dark {
+    --bs-navbar-color: #0DF2B9;
+    --bs-navbar-hover-color: #fff;
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+    font-size: 1.2em;
+}
