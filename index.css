@@ -27,6 +27,7 @@
 
 .text-left {
     text-align: justify;
+    margin: 1em auto;
 }
 
 .banner {
@@ -43,3 +44,11 @@
     max-width: 80%;
     margin: 1em auto;
 }
+
+.banner-img:hover {
+    width: 320px;
+    max-width: 85%;
+    margin: 1em auto;
+}
+
+.gallery {}
